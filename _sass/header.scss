@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  height: fit-content;
+  background-color: $primary-color;
+  padding: 16px 16px;
+  gap: 80px;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  gap: 8px;
+}
+
+.currentTab,
+.tab {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  color: $white;
+  border-radius: 16px;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.currentTab {
+    background-color: $primary-color-dark;
+}
+
+.tab {
+  &:hover {
+    background-color: $primary-color-dark;
+    cursor: pointer;
+  }
+}

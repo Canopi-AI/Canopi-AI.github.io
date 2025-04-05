@@ -1,0 +1,18 @@
+<header class="header">
+  <div class="logo">
+    <a href="/">
+      <img src="/assets/images/canopi_logo_white.svg" class="logo" alt="Canopi Logo" />
+    </a>
+  </div>
+  <nav class="tabs">
+    {% for item in site.data.header %}
+    <a
+      href="{{ item.link }}"
+      {%if page.url == item.link%} class="currentTab" {%else%}
+        class="tab"
+      {%endif%}
+      >{{ item.name }}</a
+    >
+    {% endfor %}
+  </nav>
+</header>
