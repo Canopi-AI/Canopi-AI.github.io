@@ -1,6 +1,6 @@
 # Canopi-AI.github.io
 
-Site Jekyll hébergé avec **GitHub Pages** et utilisable en local avec **Docker**.
+Site [Jekyll](https://jekyllrb.com/docs/) hébergé avec [GitHub Pages](https://pages.github.com/) et utilisable en local avec [Docker](https://www.docker.com/).
 
 ## Prérequis
 
@@ -15,7 +15,7 @@ git clone https://github.com/Canopi-AI/Canopi-AI.github.io.git
 Le projet est lancé avec docker-compose :
 
 ```sh
-docker-compose up --build -d
+docker compose up --build -d
 ```
 
 Une fois lancé, accès au site en local : http://localhost:4000
@@ -33,7 +33,28 @@ gem "some_plugin"
 Lancer l’installation dans Docker
 
 ```sh
-docker-compose run --rm jekyll bundle install
+docker compose run --rm jekyll bundle install
 ```
 
-Et redémarrer le serveur avec `docker-compose up --build -d`.
+Et redémarrer le serveur avec `docker compose up --build -d`.
+
+## Structure des fichiers
+
+Les éléments nécessaires à [Jekyll](https://jekyllrb.com/docs/) sont structurés ainsi :
+
+```
+_data/                      Données/contenu des pages
+_includes/                  Fragments HTML réutilisables
+_layouts/                   Templates de pages
+_pages/                     Pages
+_sass/                      Fichiers scss pour le style
+
+assets/
+├── css/
+│   ├── styles.scss         Fichier principal pour le style en scss
+├── images/                 Logos et illustrations
+
+_site/                      Dossier généré automatiquement (pas versionné)
+_config.yml                 Fichier de config
+Gemfile                     Dépendances Ruby
+```
