@@ -1,0 +1,52 @@
+problem:
+  title:
+    - Un constat climatique et agricole alarmant
+  content:
+    - "Le changement climatique entraîne une intensification des épisodes extrêmes : 
+      sécheresses, canicules, pluies irrégulières. 
+      En France, l’agriculture représente <b>près de 58% de l’utilisation de l’eau</b>, 
+      une ressource de plus en plus rare."
+    - Or, <b>environ 40% de cette eau est perdue</b> à cause de méthodes d’arrosage inadaptées.
+    - Face à ce défi, les agriculteurs doivent produire autant – voire plus – avec moins. 
+      Il devient urgent de leur fournir des outils efficaces, durables, et accessibles.
+
+solution:
+  title:
+    - Notre solution
+  content:
+    - Canopi est une <b>application web de gestion agricole</b>, 
+      conçue pour <b>optimiser l’utilisation de l’eau</b> 
+      et améliorer la prise de décision grâce à l’intelligence artificielle.
+    - "Elle s’appuie sur :
+        <li>des données satellites et météorologiques,</li>
+        <li>des algorithmes de prédiction,</li>
+        <li>une interface simple, responsive et pensée pour le terrain.</li>"
+    - "<b>Pas besoin de capteurs</b> à installer : la solution est prête à l’emploi et rapide à déployer."
+
+features:
+  title:
+    - Fonctionnalités clés
+  content:
+    - <b>Visualisation des parcelles</b> via une carte interactive
+    - <b>Planification des interventions</b> sur l’exploitation
+    - "<b>Suivi des données agronomiques</b> : arrosage, traitements, observations"
+    - <b>Estimation des besoins en eau</b> grâce à l’IA
+
+benefits:
+  title:
+    - Les bénéfices
+  content:
+    - <b>Gagner du temps</b> grâce à une centralisation des informations
+    - <b>Réduire les coûts</b> liés à l’eau et aux intrants
+    - <b>Maximiser les rendements</b> par une meilleure gestion des ressources
+    - <b>Agir durablement</b> en diminuant les gaspillages
+    - <b>Accéder simplement</b> à des outils technologiques avancés, sans barrière technique
+
+state:
+  title:
+    - Où en est le projet ?
+  content:
+    - Nous finalisons actuellement le développement d’un <b>prototype fonctionnel</b>.
+    - "Notre prochaine étape : <b>le tester avec des agriculteurs volontaires</b>, 
+      pour l’améliorer au plus près des besoins réels du terrain."
+
