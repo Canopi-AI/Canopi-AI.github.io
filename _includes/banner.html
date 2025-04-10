@@ -1,0 +1,22 @@
+<div class="banner">
+  <img
+    src="{{ site.baseurl }}/assets/images/banner_img.jpg"
+    alt="Banner Image"
+    class="banner-image"
+  />
+  <div class="banner-content">
+    <h1 class="banner-hook">
+      {% for item in site.data.banner.hook %} {{ item }} <br />
+      {% endfor %}
+    </h1>
+    <div class="banner-action">
+      <p class="banner-text">
+        {% for item in site.data.banner.action.text %} {{ item }} <br />
+        {% endfor %}
+      </p>
+      <a href="{{ site.data.banner.action.link }}" class="banner-button">
+        {{site.data.banner.action.button}}
+      </a>
+    </div>
+  </div>
+</div>

@@ -5,6 +5,7 @@
 }
 
 body {
+  padding-top: $header-height;
   font-family: $font-stack;
   background: $white;
   color: $black;

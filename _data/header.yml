@@ -1,8 +1,9 @@
-- name: Home
-  link: /
-- name: About
+- name: Le projet
   link: /about/
-- name: News
+- name: Qui sommes-nous ?
+  link: /team/
+- name: Actualités
   link: /news/
-- name: Contact
+- name: Contactez-nous !
   link: /contact/
+  highlight: true

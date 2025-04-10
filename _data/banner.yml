@@ -1,0 +1,10 @@
+hook:
+  - "Mieux irriguer, mieux cultiver :"
+  - Canopi, l'IA au service de l’agriculture durable.
+
+action:
+  text:
+    - Vous êtes agriculteur·rice et souhaitez tester une solution innovante pour mieux gérer vos ressources ?
+    - Rejoignez nos premiers testeurs !
+  button: Devenir bêta-testeur
+  link: /contact/
