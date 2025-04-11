@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    padding: 24px 128px;
+    font-size: 0.9rem;
+    background-color: $neutral-1;
+    color: $neutral-9;
+}
+  
+.footer a {
+    color: $neutral-8;
+    text-decoration: none;
+}
+  
+.footer a:hover {
+    text-decoration: underline;
+}
+  
