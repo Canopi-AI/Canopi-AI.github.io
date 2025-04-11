@@ -1,0 +1,29 @@
+about:
+  title:
+    - Qui sommes-nous ?
+  content:
+    - Nous sommes <b>deux data scientists passionnés</b>, 
+      convaincus que l’intelligence artificielle peut jouer un rôle clé dans la transition écologique et agricole.
+    - "Après plusieurs expériences en grande entreprise et en start-up, 
+      nous avons décidé de mettre nos compétences techniques au service d’un enjeu qui nous tient à cœur : 
+      <b>la gestion durable des ressources naturelles</b>, en particulier <b>l’eau.</b>"
+    - "Nous avons choisi de nous lancer dans l’entrepreneuriat pour apporter une réponse concrète 
+      à un problème de terrain : <b>l’irrigation inefficace et coûteuse dans un contexte de changement climatique.</b>"
+    - C’est ainsi qu’est née <b>Canopi</b>.
+
+vision:
+  title:
+    - Notre vision
+  content:
+    - Nous voulons <b>rendre accessibles des outils intelligents</b> et simples d’utilisation à tous les agriculteurs, quels que soient leur équipement ou leur niveau de familiarité avec le numérique.
+    - "Notre objectif est d’allier <b>technologie, impact et sobriété</b> pour construire une agriculture :
+      <li>plus efficace,</li>
+      <li>plus durable,</li>
+      <li>et plus résiliente face aux défis climatiques.</li>"
+
+collaboration:
+  title:
+    - Envie de collaborer avec nous ?
+  content:
+    - Nous sommes toujours à la recherche de <b>retours concrets</b> pour faire évoluer notre solution.
+    - Si vous êtes <b>agriculteur, technicien, conseiller ou simplement curieux</b>, n’hésitez pas à nous contacter !
