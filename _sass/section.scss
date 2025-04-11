@@ -20,7 +20,7 @@
 }
 
 .section-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: $primary-color;
 }
 
@@ -40,6 +40,27 @@
 .section-content b {
     font-weight: 700;
     color: $primary-color-dark;
+}
+
+.section-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: 56px;
+    border-radius: 24px;
+    padding: 0 32px;
+    font-size: large;
+    text-decoration: none;
+    background-color: $primary-color;
+    color: $white;
+    font-weight: 600;
+
+    &:hover {
+      background-color: $primary-color-dark;
+      cursor: pointer;
+    }
 }
 
 .section-image {

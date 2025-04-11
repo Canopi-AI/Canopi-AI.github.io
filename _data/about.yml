@@ -49,4 +49,8 @@ state:
     - Nous finalisons actuellement le développement d’un <b>prototype fonctionnel</b>.
     - "Notre prochaine étape : <b>le tester avec des agriculteurs volontaires</b>, 
       pour l’améliorer au plus près des besoins réels du terrain."
-
+    - <b>Vous êtes agriculteur.rice ou professionnel du secteur agricole, 
+      et souhaitez tester notre solution en avant-première ?</b>
+  button:
+    text: Je participe !
+    link: /contact/

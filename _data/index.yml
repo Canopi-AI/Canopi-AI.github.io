@@ -1,0 +1,25 @@
+stakes:
+  title: Pourquoi Canopi ?
+  content:
+    - 🌍 Le changement climatique rend l’eau de plus en plus rare.
+    - 🚜 L’agriculture représente près de <b>58%</b> de l’utilisation de cette ressource.
+    - 💧 <b>40%</b> de cette eau est perdue à cause de méthodes d’arrosage inadaptées.
+    - <b>Il est temps d’agir, avec des outils simples, efficaces et pensés pour le terrain.</b>
+  button:
+    text: Découvrir notre solution
+    link: /about/
+
+promise:
+  title: Notre promesse
+  content:
+    - Une <b>application web</b> qui centralise les données de l’exploitation, 
+      assiste dans la <b>planification</b>, 
+      et <b>prédit les besoins en eau</b> grâce à l’IA – sans capteurs à installer.
+
+collaboration:
+  title: Vous êtes agriculteur.rice ?
+  content:
+  - Participez à la phase de test et aidez-nous à créer un outil vraiment utile !
+  button:
+    text: Je participe !
+    link: /contact/

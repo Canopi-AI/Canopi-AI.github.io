@@ -9,6 +9,11 @@
       <p>{{ item }}</p>
       {% endfor %}
     </div>
+    {% if include.data.button %}
+      <a href="{{ include.data.button.link }}" class="section-button">
+        {{ include.data.button.text }}
+      </a>
+    {% endif %}
   </div>
   {% if include.data.image %}
     <div class="section-image">

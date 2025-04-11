@@ -27,3 +27,6 @@ collaboration:
   content:
     - Nous sommes toujours à la recherche de <b>retours concrets</b> pour faire évoluer notre solution.
     - Si vous êtes <b>agriculteur, technicien, conseiller ou simplement curieux</b>, n’hésitez pas à nous contacter !
+  button:
+    text: Nous contacter
+    link: /contact/
