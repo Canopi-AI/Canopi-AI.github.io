@@ -2,8 +2,8 @@
   link: /about/
 - name: Qui sommes-nous ?
   link: /team/
-- name: Actualités
-  link: /news/
+- name: Articles
+  link: /posts/
 - name: Contactez-nous !
   link: /contact/
   highlight: true

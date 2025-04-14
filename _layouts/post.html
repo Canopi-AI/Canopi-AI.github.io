@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="post">
+  <div class="post-header">
+    <h1>
+      {% if page.header %} {{page.header}} {% else %} {{page.title}} {% endif %}
+    </h1>
+    <p>
+      {% include date-fr.html date=page.date %} {% if page.author %} - {{
+      page.author }} {% endif %}
+    </p>
+  </div>
+  <div class="post-content">{{ content }}</div>
+</div>

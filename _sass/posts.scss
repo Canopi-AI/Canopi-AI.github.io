@@ -1,0 +1,82 @@
+.posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding: 32px 16vw 0 16vw;
+    gap: 16px;
+}
+
+.posts h1 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: $neutral-3;
+}
+
+.post-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding: 16px;
+    border-radius: 16px;
+    gap: 8px;
+    border: 1.5px solid $neutral-1;
+    text-decoration: none;
+    color: $neutral-9;
+
+    &:hover {
+        background-color: $neutral-1;
+    }
+}
+
+.post-link h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: $primary-color-dark;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding: 32px 16vw 0 16vw;
+    gap: 32px;
+}
+
+.post-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 16px;
+}
+
+.post-header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: $primary-color-dark;
+}
+
+.post-header p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: $neutral-5;
+}
+
+.post-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 8px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: $neutral-9;
+}
