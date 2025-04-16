@@ -7,7 +7,7 @@ permalink: /posts/
     {% for post in site.posts %}
       <a href="{{ post.url }}" class="post-link">
         <h2>{% if post.header %} {{post.header}} {% else %} {{post.title}} {% endif %}</h2>
-        {{ post.excerpt }}
+        <p>{{ post.excerpt }}</p>
       </a>
     {% endfor %}
 </div>
