@@ -15,6 +15,7 @@ promise:
     - Une <b>application web</b> qui centralise les données de l’exploitation, 
       assiste dans la <b>planification</b>, 
       et <b>prédit les besoins en eau</b> grâce à l’IA – sans capteurs à installer.
+  image: /assets/images/index_illustration_promise.svg
 
 collaboration:
   title: Vous êtes agriculteur.rice ?

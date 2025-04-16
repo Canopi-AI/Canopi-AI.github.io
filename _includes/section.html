@@ -1,10 +1,10 @@
 <div class="section">
-  <div class="section-text">
+  <div class="section-content">
     <h1 class="section-title">
       {% for item in include.data.title %} {{ item }} <br />
       {% endfor %}
     </h1>
-    <div class="section-content">
+    <div class="section-text">
       {% for item in include.data.content %}
       <p>{{ item }}</p>
       {% endfor %}
@@ -16,8 +16,8 @@
     {% endif %}
   </div>
   {% if include.data.image %}
-    <div class="section-image">
-        <img src="{{ include.data.image }}" />
+    <div class="section-image-container">
+        <img src="{{ include.data.image }}" class="section-image" />
     </div>
   {% endif %}
 </div>

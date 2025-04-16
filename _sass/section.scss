@@ -6,10 +6,10 @@
     width: 100%;
     height: calc(100vh - #{$header-height});
     padding: 0 16vw $header-height 16vw;
-    gap: 32px;
+    gap: 64px;
 }
 
-.section-text {
+.section-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,7 +24,7 @@
     color: $primary-color;
 }
 
-.section-content {
+.section-text {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -63,11 +63,20 @@
     }
 }
 
+.section-image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 100%;
+}
+
 .section-image {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: fit-content;
+    width: 100%;
     height: 100%;
 }
