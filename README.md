@@ -47,6 +47,7 @@ _data/                      Données/contenu des pages
 _includes/                  Fragments HTML réutilisables
 _layouts/                   Templates de pages
 _pages/                     Pages
+_posts/                     Posts apparaissant dans les articles
 _sass/                      Fichiers scss pour le style
 
 assets/

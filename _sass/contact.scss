@@ -1,0 +1,47 @@
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding: 32px 16vw 32px 16vw;
+    gap: 32px;
+}
+
+.contact-page h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: $primary-color-dark;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 8px;
+}
+
+.contact-section h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: $primary-color-dark;
+}
+
+.contact-section p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: $neutral-9;
+}
+
+.contact-section a {
+    font-size: 1rem;
+    font-weight: 400;
+    color: $primary-color-dark;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

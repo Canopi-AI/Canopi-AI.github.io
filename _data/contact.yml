@@ -1,0 +1,14 @@
+title: Envie de nous contacter ?
+betatest:
+  title:
+    - Devenez bêta-testeur
+  content:
+    - Vous êtes agriculteur·rice et souhaitez tester notre application en avant-première ?
+    - Participez à notre phase de bêta-test et aidez-nous à construire un outil au plus près de vos besoins !
+    - <a href="https://forms.gle/g48tYoYyiRawpgay7" target="_blank">Remplir le formulaire de bêta-test</a>
+direct:
+  title:
+    - Nous écrire directement
+  content:
+    - Une question, une remarque, ou simplement envie d’échanger avec nous ?
+    - "Écrivez-nous à : <a href='mailto:canopi.team@gmail.com'>canopi.team@gmail.com</a>"
