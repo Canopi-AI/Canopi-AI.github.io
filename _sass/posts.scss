@@ -112,6 +112,12 @@
     color: $primary-color-dark;
 }
 
+.post-content a {
+    text-decoration: underline;
+    color: $primary-color-dark;
+    font-weight: 600;
+}
+
 .post-content img {
     display: block;
     margin: 16px auto;

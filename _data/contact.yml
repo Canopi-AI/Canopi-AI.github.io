@@ -6,6 +6,13 @@ betatest:
     - Vous êtes agriculteur·rice et souhaitez tester notre application en avant-première ?
     - Participez à notre phase de bêta-test et aidez-nous à construire un outil au plus près de vos besoins !
     - <a href="https://forms.gle/g48tYoYyiRawpgay7" target="_blank">Remplir le formulaire de bêta-test</a>
+news:
+  title:
+    - Restez informé·e
+  content:
+    - Vous souhaitez être informé·e des dernières actualités de Canopi ?
+    - "Inscrivez-vous pour recevoir des nouvelles de Canopi : avancées du projet, publications, ouverture au public..."
+    - <a href="https://forms.gle/g48tYoYyiRawpgay7" target="_blank">Être tenu·e au courant</a>
 direct:
   title:
     - Nous écrire directement

@@ -13,6 +13,13 @@ permalink: /contact/
   </div>
 
   <div class="contact-section">
+    <h2>{{site.data.contact.news.title}}</h2>
+    {% for item in site.data.contact.news.content %}
+        <p>{{item}}</p>
+    {% endfor %}
+  </div>
+
+  <div class="contact-section">
     <h2>{{site.data.contact.direct.title}}</h2>
     {% for item in site.data.contact.direct.content %}
         <p>{{item}}</p>
